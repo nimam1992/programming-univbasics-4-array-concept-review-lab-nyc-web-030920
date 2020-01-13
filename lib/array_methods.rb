@@ -23,4 +23,4 @@ def find_min_value(array)
   # Add your solution here
 end
 letters = ['A','B','C']
-find_element_index(letters,'B')
+find_element_index(letters,'A')
