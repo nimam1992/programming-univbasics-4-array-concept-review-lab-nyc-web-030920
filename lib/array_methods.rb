@@ -4,10 +4,10 @@ def find_element_index(array, value_to_find)
   list = []
   while i < array.length do
     array[i]
+    i+=1
     if array[i]=x
       list.push(array[i])
     end
-    i+=1
   end
   return list
   puts list
