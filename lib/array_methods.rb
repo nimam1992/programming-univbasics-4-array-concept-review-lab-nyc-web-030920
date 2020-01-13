@@ -13,6 +13,7 @@ def find_element_index(array, value_to_find)
   if list.length===0
     return nil
   end
+  puts list
 end
 
 def find_max_value(array)
