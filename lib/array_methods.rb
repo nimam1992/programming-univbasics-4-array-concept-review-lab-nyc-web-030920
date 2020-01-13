@@ -12,7 +12,6 @@ def find_element_index(array, value_to_find)
   if list===0
     list = nil
   end
-  return list
   puts list
 end
 
