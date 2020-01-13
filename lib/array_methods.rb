@@ -9,7 +9,10 @@ def find_element_index(array, value_to_find)
       list.push(array[i])
     end
   end
-  puts list
+  if list.length=0
+    list = nil
+  end
+  return list
 end
 
 def find_max_value(array)
