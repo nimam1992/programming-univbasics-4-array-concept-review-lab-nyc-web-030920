@@ -10,7 +10,7 @@ def find_element_index(array, value_to_find)
     end
   end
   if list.length===0
-    list.push(nil)
+    list = nil
   end
   return list
 end
