@@ -5,11 +5,11 @@ def find_element_index(array, value_to_find)
   while i < array.length do
     array[i]
     if array[i]===x
-       list = array.index(array[i])
+       list = x
     end
     i+=1
   end
-  if list.length===0
+  if list.length=0
     list = nil
   end
   return list
