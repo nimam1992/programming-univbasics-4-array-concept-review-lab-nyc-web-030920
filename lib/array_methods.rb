@@ -4,10 +4,10 @@ def find_element_index(array, value_to_find)
   i=0
   while i < array.length do
     array[i]
+    i++
     if array[i]===x
        list = i
     end
-    i+=1
   end
   if list===0
     list = nil
