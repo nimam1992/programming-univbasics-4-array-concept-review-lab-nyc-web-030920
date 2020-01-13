@@ -7,7 +7,6 @@ def find_element_index(array, value_to_find)
     i+=1
     if array[i]===x
       list.push(array[i])
-      return list
     end
   end
   if list.length===0
