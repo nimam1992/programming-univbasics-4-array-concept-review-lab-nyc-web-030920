@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
       list.push(array[i])
     end
   end
-  if list.length=0
+  if list.length===0
     list = nil
   end
   return list
