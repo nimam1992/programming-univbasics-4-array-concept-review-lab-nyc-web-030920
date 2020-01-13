@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
     if array[i]===x
        list = i
     end
-    i++
+    i+=1
   end
   if list===0
     list = nil
